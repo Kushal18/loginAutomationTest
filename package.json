@@ -1,0 +1,29 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pluma-Health/tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pluma-Health/tests/issues"
+  },
+  "homepage": "https://github.com/Pluma-Health/tests#readme",
+  "dependencies": {
+    "assert": "^1.3.0",
+    "chai": "^3.5.0",
+    "chai-webdriver": "^1.2.0",
+    "describe": "^1.2.0",
+    "eyes.selenium": "0.0.48",
+    "mocha": "^3.2.0",
+    "requirejs": "^2.2.0",
+    "selenium-webdriver": "^3.3.1"
+  }
+}
