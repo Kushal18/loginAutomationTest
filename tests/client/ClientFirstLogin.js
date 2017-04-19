@@ -246,12 +246,12 @@
 				});
 			});
 			it('should logout',function(done){
-		driver.findElement(webdriver.By.css('#menu')).click();			//clicks on the menu
-		driver.sleep(1000);
-	    driver.findElement(webdriver.By.id("logout")).click().then(function(){ //clicks on the log out
-		   done();
-		});
-	});
+				driver.findElement(webdriver.By.css('#menu')).click();			//clicks on the menu
+				driver.sleep(1000);
+	    			driver.findElement(webdriver.By.id("logout")).click().then(function(){ //clicks on the log out
+		   		done();
+				});
+			});
 		});
 
 	};
